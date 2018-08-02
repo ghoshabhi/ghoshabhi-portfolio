@@ -5,8 +5,6 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  /* height: '100%'; */
-  /* width: 50vw; */
   align-items: center;
   justify-content: center;
   background-color: #f0db4f;
@@ -17,23 +15,24 @@
 }
 
 /* Hi-res Desktops */
-
 @media (min-width: 1281px) {
-  /* .home {
-    background-color: #005abc;
-  } */
   .home > .content {
     width: 60vw;
   }
 }
 
 /* Tablets, iPads */
-
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* .home {
-    background-color: #15dabc;
-  } */
   .home > .content {
     width: 80vw;
+  }
+}
+
+/* Most of the Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .home {
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
   }
 }

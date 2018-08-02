@@ -42,9 +42,16 @@
   font-weight: bold;
 }
 
-.introduction__subtitle-text {
+.introduction__subtitle-container {
   margin-left: 12px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.introduction__subtitle-text {
+  font-size: 0.9em;
+  font-weight: 300;
+  text-align: center;
 }
 
 /* Most of the Smartphones Mobiles (Portrait) */
@@ -54,13 +61,21 @@
   }
   .introduction__title_container {
     flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
   }
 }
 
+/* Tablets, iPads */
 @media (min-width: 768px) and (max-width: 1024px) {
   .introduction__title-text {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
+
+  .introduction__subtitle-text {
+    font-size: 1.5em;
+  }
+
   .introduction__title_container {
     flex-direction: column;
     margin-left: 0px;
