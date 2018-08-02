@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ghoshabhi.github.io/ghoshabhi-portfolio",
+  "homepage": "https://ghoshabhi.github.io/ghoshabhi.github.io",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --open",
     "build": "webpack --mode production",
