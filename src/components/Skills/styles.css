@@ -30,8 +30,25 @@
   transition: all 0.3s ease-in-out;
 }
 
+.skill__skill_item-text {
+  font-weight: bold;
+}
+
 /* Most of the Smartphones Mobiles (Portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
+  .skills__skill_item {
+    height: 30px;
+    width: 110px;
+    padding: 5px;
+  }
+
+  .skill__skill_item-text {
+    font-size: 0.8em;
+  }
+}
+
+/* Tablets, iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
   .skills__skill_item {
     height: 30px;
     width: 110px;

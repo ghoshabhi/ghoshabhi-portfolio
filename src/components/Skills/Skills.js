@@ -15,7 +15,7 @@ const SkillItem = ({ skill }) => (
       height="42"
       width="42"
     /> */}
-    <span style={{ fontWeight: "bold" }}>{skill.skill_name}</span>
+    <span className="skill__skill_item-text">{skill.skill_name}</span>
   </div>
 );
 
