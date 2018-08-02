@@ -8,9 +8,7 @@ const LINKS_MAP = {
 }
 
 const LinksSeparator = () => (
-  <div className="links_content">
-     <div className="separator" />
-   </div>
+  <div className="links_content separator" />
 );
 
 const Links = () => (
