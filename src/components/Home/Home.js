@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import styles from './styles.css'
+import React, { Component } from "react";
+import styles from "./styles.css";
 
-import Introduction from '../Introduction';
+import Introduction from "../Introduction";
 
 const Home = () => (
   <div className="home">
@@ -9,6 +9,6 @@ const Home = () => (
       <Introduction />
     </div>
   </div>
-)
+);
 
 export default Home;

@@ -12,17 +12,17 @@
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 18px 20px 30px 0 rgba(46,61,73,.15);
-  -webkit-box-shadow: 18px 20px 30px 0 rgba(46,61,73,.15);
-  -moz-box-shadow: 18px 20px 30px 0 rgba(46,61,73,.15);
+  box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
+  -webkit-box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
+  -moz-box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
   transition: all 0.3s ease-in-out;
   flex-direction: column;
 }
 
 .introduction:hover {
-  box-shadow: 3px 3px 3px 0 rgba(46,61,73,.15);
-  -webkit-box-shadow: 3px 3px 3px 0 rgba(46,61,73,.15);
-  -moz-box-shadow: 3px 3px 3px 0 rgba(46,61,73,.15);
+  box-shadow: 3px 3px 3px 0 rgba(46, 61, 73, 0.15);
+  -webkit-box-shadow: 3px 3px 3px 0 rgba(46, 61, 73, 0.15);
+  -moz-box-shadow: 3px 3px 3px 0 rgba(46, 61, 73, 0.15);
   transition: all 0.3s ease-in-out;
 }
 
@@ -35,4 +35,35 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
+}
+
+.introduction__title-text {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.introduction__subtitle-text {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+/* Most of the Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .introduction__title-text {
+    font-size: 1em;
+  }
+  .introduction__title_container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .introduction__title-text {
+    font-size: 1.3em;
+  }
+  .introduction__title_container {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
