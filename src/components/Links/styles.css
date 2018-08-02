@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #323330;
+}
+
+a:hover .fa {
+  /* color: blue; */
+}
+
+.links_container {
+  display: flex;
+  flex: 1;
+  color: #323330;
+  justify-content: center;
+}
+
+.links_content {
+  margin: 20px;
+}
+
+.fa-github {
+  color: #323330;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.links_content:right {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #323330;
+}
+
+.separator {
+  height: 3px;
+  width: 70px;
+  margin-top: 10px;
+  border-bottom: 1px solid #323330;
+}

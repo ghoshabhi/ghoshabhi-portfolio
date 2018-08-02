@@ -5,9 +5,9 @@
   display: -webkit-flex;
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
   height: 350px;
-  width: '80%';
   background-color: #F2F3F4;
   padding: 20px;
   margin: 10px;
@@ -15,4 +15,5 @@
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
 }
