@@ -9,10 +9,10 @@
   /* width: 50vw; */
   align-items: center;
   justify-content: center;
-  background-color: #F0DB4F;
+  background-color: #f0db4f;
 }
 
-.home>.content {
+.home > .content {
   width: 100vw;
 }
 
@@ -22,7 +22,7 @@
   /* .home {
     background-color: #005abc;
   } */
-  .home>.content {
+  .home > .content {
     width: 60vw;
   }
 }
@@ -33,7 +33,7 @@
   /* .home {
     background-color: #15dabc;
   } */
-  .home>.content {
+  .home > .content {
     width: 80vw;
   }
 }

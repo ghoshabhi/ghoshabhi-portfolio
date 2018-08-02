@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import styles from './styles.css'
+import React, { Component } from "react";
+import styles from "./styles.css";
 
-import skills from './referenceData';
+import skills from "./referenceData";
 
 const SkillItem = ({ skill }) => (
   <div
@@ -15,18 +15,13 @@ const SkillItem = ({ skill }) => (
       height="42"
       width="42"
     /> */}
-    <span style={{ fontWeight: 'bold' }}>{skill.skill_name}</span>
+    <span style={{ fontWeight: "bold" }}>{skill.skill_name}</span>
   </div>
-)
+);
 
 const Skills = () => (
   <div className="skills_container">
-    {skills.map((skill) => (
-      <SkillItem
-        key={skill.id}
-        skill={skill}
-      />
-    ))}
+    {skills.map(skill => <SkillItem key={skill.id} skill={skill} />)}
   </div>
 );
 

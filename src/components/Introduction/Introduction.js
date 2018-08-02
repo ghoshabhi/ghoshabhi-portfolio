@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './styles.css';
+import React from "react";
+import styles from "./styles.css";
 
-import Skills from '../Skills';
-import Links from '../Links';
+import Skills from "../Skills";
+import Links from "../Links";
 
 const Introduction = () => (
   <div className="introduction">
@@ -15,6 +15,6 @@ const Introduction = () => (
     <Skills />
     <Links />
   </div>
-)
+);
 
 export default Introduction;
