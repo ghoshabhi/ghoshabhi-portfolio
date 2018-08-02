@@ -1,10 +1,33 @@
 import React, { Component } from 'react'
 import styles from './styles.css'
 
-const Skills = () => (
-  <div>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
+import skills from './referenceData';
+
+const SkillItem = ({ skill }) => (
+  <div
+    className="skills__skill_item"
+    style={{ backgroundColor: skill.color_code }}
+  >
+    {/* <span className="fab fa-react fa-lg" style={{ marginRight: 20 }} /> */}
+    {/* <img
+      src={require('../../assets/redux_logo.png')}
+      alt="redux_logo"
+      height="42"
+      width="42"
+    /> */}
+    <span style={{ fontWeight: 'bold' }}>{skill.skill_name}</span>
+  </div>
 )
+
+const Skills = () => (
+  <div className="skills_container">
+    {skills.map((skill) => (
+      <SkillItem
+        key={skill.id}
+        skill={skill}
+      />
+    ))}
+  </div>
+);
 
 export default Skills;
