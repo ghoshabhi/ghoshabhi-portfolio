@@ -36,3 +36,34 @@
   align-items: center;
   margin-left: 10px;
 }
+
+.introduction__title-text {
+  font-size:  2em;
+  font-weight: bold;
+}
+
+.introduction__subtitle-text {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+/* Most of the Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .introduction__title-text {
+    font-size: 1.0em;
+  }
+  .introduction__title_container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .introduction__title-text {
+    font-size: 1.3em;
+  }
+  .introduction__title_container {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}

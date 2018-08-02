@@ -7,8 +7,8 @@ import Links from '../Links';
 const Introduction = () => (
   <div className="introduction">
     <div className="introduction__title_container">
-      <h1>Hi 👋 I'm Abhishek Ghosh</h1>
-      <div style={{ marginTop: 12, marginLeft: 10 }}>
+      <span className="introduction__title-text">Hi 👋 I'm Abhishek Ghosh</span>
+      <div className="introduction__subtitle-text">
         <h4>Software Engineer</h4>
       </div>
     </div>
