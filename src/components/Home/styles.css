@@ -1,0 +1,39 @@
+.home {
+  padding: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* height: '100%'; */
+  /* width: 50vw; */
+  align-items: center;
+  justify-content: center;
+  background-color: #F0DB4F;
+}
+
+.home>.content {
+  width: 100vw;
+}
+
+/* Hi-res Desktops */
+
+@media (min-width: 1281px) {
+  /* .home {
+    background-color: #005abc;
+  } */
+  .home>.content {
+    width: 60vw;
+  }
+}
+
+/* Tablets, iPads */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* .home {
+    background-color: #15dabc;
+  } */
+  .home>.content {
+    width: 80vw;
+  }
+}
