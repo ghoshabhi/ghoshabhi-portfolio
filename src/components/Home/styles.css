@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   background-color: #f0db4f;
+  /* background: linear-gradient(to bottom, #ffe435, #f0db4f, #ffde0c, #e55b5b); */
 }
 
 .home > .content {

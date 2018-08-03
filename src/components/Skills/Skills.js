@@ -4,9 +4,10 @@ import styles from "./styles.css";
 import skills from "./referenceData";
 
 const SkillItem = ({ skill }) => (
-  <div
+  <button
     className="skills__skill_item"
     style={{ backgroundColor: skill.color_code }}
+    onClick={() => console.log(skill.skill_name)}
   >
     {/* <span className="fab fa-react fa-lg" style={{ marginRight: 20 }} /> */}
     {/* <img
@@ -16,7 +17,7 @@ const SkillItem = ({ skill }) => (
       width="42"
     /> */}
     <span className="skill__skill_item-text">{skill.skill_name}</span>
-  </div>
+  </button>
 );
 
 const Skills = () => (
