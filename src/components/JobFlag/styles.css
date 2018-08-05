@@ -1,0 +1,52 @@
+.job-flag {
+  /* height: 55px; */
+  width: 120px;
+  position: relative;
+  top: -20px;
+  left: -40px;
+  float: right;
+  background-color: rgb(206, 76, 76);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
+  -webkit-box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
+  -moz-box-shadow: 18px 20px 30px 0 rgba(46, 61, 73, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.job-flag:hover {
+  cursor: pointer;
+}
+
+.job-flag__text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.laptop-icon {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+/* Most of the Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+ .job-flag {
+    width: 100px;
+    top: -40px;
+    right: 140px;
+  }
+
+ .job-flag__text {
+    color: #fff;
+    font-size: 12px;
+  }
+}
+
+/* Tablets, iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}

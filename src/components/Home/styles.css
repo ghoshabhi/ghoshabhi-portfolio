@@ -5,6 +5,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #f0db4f;
