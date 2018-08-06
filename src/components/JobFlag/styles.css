@@ -4,10 +4,11 @@
   /* position: absolute;
   top: 40px;
   right: -60px; */
+  display: flex;
   background-color: rgb(206, 76, 76);
   padding: 3px;
   border-radius: 5px;
-  display: none;
+  visibility: hidden;
   justify-content: center;
   align-items: center;
 }
