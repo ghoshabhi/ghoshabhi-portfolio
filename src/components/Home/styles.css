@@ -10,6 +10,10 @@
   justify-content: center;
   background-color: #f0db4f;
   /* background: linear-gradient(to bottom, #ffe435, #f0db4f, #ffde0c, #e55b5b); */
+  /* background-size: 1200%, 1200%;
+  background: linear-gradient(241deg, #ff8c47, #0d45e4, #22e099, #ff5d36);
+  animation: rainbow 8s ease infinite;
+  transition: color 0.1s ease-in; */
 }
 
 .home > .content {
