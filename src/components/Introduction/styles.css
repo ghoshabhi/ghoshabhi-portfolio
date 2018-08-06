@@ -48,6 +48,7 @@
   font-size: 2em;
   font-weight: bold;
   text-align: center;
+  color: #323330;
 }
 
 .introduction__subtitle-container {
@@ -61,6 +62,7 @@
   font-weight: 500;
   opacity: 0.8;
   text-align: center;
+  color: #323330;
 }
 
 /* Most of the Smartphones Mobiles (Portrait) */
