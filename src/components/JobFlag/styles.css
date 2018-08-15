@@ -8,7 +8,7 @@
   background-color: rgb(206, 76, 76);
   padding: 3px;
   border-radius: 5px;
-  visibility: hidden;
+  /* visibility: hidden; */
   justify-content: center;
   align-items: center;
 }
@@ -27,7 +27,7 @@
   font-size: 22px;
 }
 
-.fade-in {
+/* .fade-in {
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -42,7 +42,7 @@
   100% {
     opacity: 1;
   }
-}
+} */
 
 /* Most of the Smartphones Mobiles (Portrait) */
 @media (min-width: 320px) and (max-width: 480px) {

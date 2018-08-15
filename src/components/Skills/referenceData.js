@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    skill_name: "React",
+    skill_name: "React/React Native",
     icon: null,
     color_code: "#61DBFB"
   },
