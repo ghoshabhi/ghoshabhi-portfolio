@@ -4,11 +4,16 @@ import styles from "./styles.css";
 import Skills from "../Skills";
 import Links from "../Links";
 
+import img from '../../assets/pp.png'
+
 const introText = "Hi 👋 I'm Abhishek Ghosh";
 const subtitleText = "Software Engineer";
 
 const Introduction = () => (
   <div className="introduction">
+    <div className="profile_pic_container">
+      <img className="profile_pic" src={img} />
+    </div>
     <div className="introduction__title_container">
       <span className="introduction__title-text">{introText}</span>
       <div className="introduction__subtitle-container">
