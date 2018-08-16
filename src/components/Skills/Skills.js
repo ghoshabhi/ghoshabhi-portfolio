@@ -6,7 +6,7 @@ import skills from "./referenceData";
 const SkillItem = ({ skill }) => (
   <button
     className="skills__skill_item"
-    style={{ backgroundColor: skill.color_code }}
+    style={{ backgroundColor: skill.color_code || '#fff' }}
     onClick={() => console.log(skill.skill_name)}
   >
     {/* <span className="fab fa-react fa-lg" style={{ marginRight: 20 }} /> */}

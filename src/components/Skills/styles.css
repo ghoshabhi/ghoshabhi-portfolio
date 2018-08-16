@@ -10,8 +10,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 55px;
-  width: 140px;
+  min-height: 55px;
+  min-width: 140px;
   margin: 10px;
   padding: 5px;
   border-radius: 7px;
