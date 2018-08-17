@@ -6,6 +6,15 @@ import JobFlag from "../JobFlag";
 
 import { AppContextProvider } from "../../context";
 
+import img from '../../assets/pp.png';
+
+
+const ProfilePicture = () => (
+  <div className="profile_pic__container">
+    <img className="profile_pic" src={img} />
+  </div>
+);
+
 export default class Home extends React.Component {
   state = {
     isHovered: false
@@ -28,10 +37,9 @@ export default class Home extends React.Component {
       >
         <div className="home">
           <div className="content">
+            <ProfilePicture />
             <Introduction />
-            <div className="job-flag__container">
-              <JobFlag />
-            </div>
+            <JobFlag />
           </div>
         </div>
         {this.props.children}

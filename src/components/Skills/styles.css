@@ -13,7 +13,7 @@
   min-height: 55px;
   min-width: 140px;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 7px;
   color: #f9f9f9;
   letter-spacing: 0.1em;
@@ -49,9 +49,9 @@
 /* Most of the Smartphones Mobiles (Portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
   .skills__skill_item {
-    height: 30px;
-    width: 110px;
-    padding: 5px;
+    min-height: 30px;
+    min-width: 110px;
+    padding: 10px;
   }
 
   .skill__skill_item-text {
@@ -62,7 +62,7 @@
 /* Tablets, iPads */
 @media (min-width: 768px) and (max-width: 1024px) {
   .skills__skill_item {
-    height: 30px;
-    width: 110px;
+    min-height: 30px;
+    min-width: 110px;
   }
 }

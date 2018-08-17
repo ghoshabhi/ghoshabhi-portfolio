@@ -1,38 +1,47 @@
+const reduxLogo = require('../../assets/redux_logo.png');
+const reactLogo = require('../../assets/react.png');
+
 export default [
   {
     id: 1,
-    skill_name: "React/React Native",
-    icon: null,
-    color_code: "#61DBFB"
+    skillName: "React/React Native",
+    icon: reactLogo,
+    colorCode: "#61DBFB",
+    iconColor: "white",
   },
   {
     id: 2,
-    skill_name: "Redux",
-    icon: null,
-    color_code: "#6F45BA"
+    skillName: "Redux",
+    icon: reduxLogo,
+    colorCode: "#6F45BA",
+    iconColor: "white",
   },
   {
     id: 3,
-    skill_name: "GraphQL",
+    skillName: "GraphQL",
     icon: null,
-    color_code: "#ff7bd4"
+    colorCode: "#ff7bd4",
+    iconColor: "",
   },
   {
     id: 4,
-    skill_name: "Python",
+    skillName: "Python",
     icon: null,
-    color_code: "#4B8BBE"
+    colorCode: "#4B8BBE",
+    iconColor: "",
   },
   {
     id: 5,
-    skill_name: "Flask",
+    skillName: "Flask",
     icon: null,
-    color_code: "#ddd"
+    colorCode: "#ddd",
+    iconColor: "",
   },
   {
     id: 6,
-    skill_name: "Rails",
+    skillName: "Rails",
     icon: null,
-    color_code: "#CC0000"
+    colorCode: "#CC0000",
+    iconColor: "",
   }
 ];
