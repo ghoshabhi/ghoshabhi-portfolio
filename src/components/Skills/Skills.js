@@ -6,17 +6,21 @@ import skills from "./referenceData";
 const SkillItem = ({ skill }) => (
   <button
     className="skills__skill_item"
-    style={{ backgroundColor: skill.color_code || '#fff' }}
-    onClick={() => console.log(skill.skill_name)}
+    style={{ backgroundColor: skill.colorCode || '#fff' }}
+    onClick={() => console.log(skill.skillName)}
   >
-    {/* <span className="fab fa-react fa-lg" style={{ marginRight: 20 }} /> */}
-    {/* <img
-      src={require('../../assets/redux_logo.png')}
-      alt="redux_logo"
-      height="42"
-      width="42"
-    /> */}
-    <span className="skill__skill_item-text">{skill.skill_name}</span>
+    {/* <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }}>
+      <img
+        src={skill.icon}
+        // alt="redux_logo"
+        height="22"
+        width="22"
+        style={{ filter: 'opacity(.1) drop-shadow(0 0 0 black)' }}
+      />
+    </div> */}
+    <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }}>
+      <span className="skill__skill_item-text">{skill.skillName}</span>
+    </div>
   </button>
 );
 

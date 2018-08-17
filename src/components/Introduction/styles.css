@@ -9,7 +9,7 @@
   align-items: center;
   min-height: 350px;
   background-color: #f2f3f4;
-  padding: 20px;
+  padding: 20px 10px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px 0 rgba(46, 61, 73, 0.15);
@@ -17,13 +17,7 @@
   -moz-box-shadow: 3px 3px 3px 0 rgba(46, 61, 73, 0.15);
   transition: all 0.3s ease-in-out;
   flex-direction: column;
-}
-
-.profile_pic {
-  transition: all 0.3s ease-in;
-  border-radius: 100px;
-  height: 150px;
-  width: 150px;
+  z-index: 100;
 }
 
 .introduction:hover {
