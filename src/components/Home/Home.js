@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from "react";
 import styles from "./styles.css";
 
@@ -6,16 +8,15 @@ import JobFlag from "../JobFlag";
 
 import { AppContextProvider } from "../../context";
 
-import img from '../../assets/pp.png';
+import img from "../../assets/pp.png";
 
-
-const ProfilePicture = () => (
+const ProfilePicture = props => (
   <div className="profile_pic__container">
     <img className="profile_pic" src={img} />
   </div>
 );
 
-export default class Home extends React.Component {
+export default class Home extends React.Component<*, { isHovered: boolean }> {
   state = {
     isHovered: false
   };

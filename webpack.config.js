@@ -6,6 +6,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
+  devtool: "source-map",
   module: {
     rules: [
       {
@@ -15,7 +16,7 @@ module.exports = {
           loader: "babel-loader"
         }
       },
-      
+
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
@@ -38,14 +39,14 @@ module.exports = {
       {
         test: /\.(pdf|jpg|png|gif|svg|ico)$/,
         use: [
-            {
-                loader: 'url-loader',
-                options: {
-                  limit: 8192
-                }
-            },
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192
+            }
+          }
         ]
-      },
+      }
     ]
   },
   plugins: [htmlWebpackPlugin]
